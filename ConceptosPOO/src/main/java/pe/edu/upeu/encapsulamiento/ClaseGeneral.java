@@ -16,7 +16,7 @@ public class ClaseGeneral {
     public static void probar(){
         Estudiante estudiante = new Estudiante();
         estudiante.setCarrera("Ing. Sistemas");
-        estudiante.setCodigo("201520873");
+        estudiante.setCodigo("202523131");
         estudiante.trabajo();
     }
 
