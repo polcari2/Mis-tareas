@@ -1,6 +1,6 @@
 package pe.edu.upeu.encapsulamiento;
 
-import pe.edu.upeu.encapsulamiento.modelo.Persona;
+
 
 public class ClaseGeneral {
 
