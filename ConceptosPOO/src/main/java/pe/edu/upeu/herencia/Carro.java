@@ -2,7 +2,7 @@ package pe.edu.upeu.herencia;
 
 public class Carro  extends Vehiculo{
 
-    String modelo="Toyota";
+    String modelo=" Ford Focus";
     String placa = "34213";
     String color = "rojo";
 
