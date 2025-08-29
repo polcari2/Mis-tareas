@@ -1,9 +1,13 @@
-package pe.edu.upeu.encapsulamiento.modelo;
+package pe.edu.upeu.encapsulamiento;
 
 public class Persona {
-    private String nombre;
-    private int edad;
-    private char genero;
+    String nombre;
+    int edad;
+    char genero;
+
+    void saludo(){
+        System.out.println("Hola, mi nombre es "+nombre+" y mi edad es "+edad);
+    }
 
     public String getNombre() {
         return nombre;
@@ -28,9 +32,4 @@ public class Persona {
     public void setGenero(char genero) {
         this.genero = genero;
     }
-
-    public void saludo() {
-        System.out.println("Hola mi nombre es: " + nombre + " y mi edad es: " + edad);
-    }
-
 }
