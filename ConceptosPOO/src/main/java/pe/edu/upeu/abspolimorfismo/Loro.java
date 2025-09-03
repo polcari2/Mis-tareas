@@ -1,20 +1,19 @@
 package pe.edu.upeu.abspolimorfismo;
 
-public class Loro extends Animal {
+public class Loro extends Animal{
 
-    private String tipo="Ave";
+    private String tipo = "Ave";
 
     @Override
     public void emitirSonido(){
-        System.out.println("Hey...no te duermas...atiende");
+        System.out.println("Hey... no te duermas papu, atiende!");
     }
+
     @Override
-    public void dormir(){
+    public void dormir() {
         super.dormir();
         System.out.println(super.tipo);
         System.out.println(this.tipo);
-        System.out.println("No molestar zzzzz...zzz");
-
+        System.out.println("No molestar");
     }
-
 }
