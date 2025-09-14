@@ -9,17 +9,16 @@ import pe.edu.upeu.asistencia.modelo.Participante;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public abstract class ParticipanteRepository {
-    protected List<Participante> participantes =new ArrayList<>();
+    protected List<Participante> participantes = new ArrayList<>();
 
-    public  List<Participante> findAll(){
+    public List<Participante> findAll(){
         participantes.add(new Participante(
-                new SimpleStringProperty("aron"),
-                new SimpleStringProperty("Magaño"),
-                new SimpleStringProperty("61321012"),
+                new SimpleStringProperty("61001187"),
+                new SimpleStringProperty("Pedro"),
+                new SimpleStringProperty("Loayza"),
                 Carrera.SISTEMAS,
-                TipoParticipante.ASISTENTE,
+                TipoParticipante.ORGANIZADOR,
                 new SimpleBooleanProperty(true)
         ));
         return participantes;
