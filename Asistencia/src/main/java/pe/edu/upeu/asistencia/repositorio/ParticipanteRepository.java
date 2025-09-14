@@ -14,9 +14,9 @@ public abstract class ParticipanteRepository {
 
     public List<Participante> findAll(){
         participantes.add(new Participante(
-                new SimpleStringProperty("61001187"),
-                new SimpleStringProperty("Pedro"),
-                new SimpleStringProperty("Loayza"),
+                new SimpleStringProperty("213122312"),
+                new SimpleStringProperty("Paul"),
+                new SimpleStringProperty("Cari"),
                 Carrera.SISTEMAS,
                 TipoParticipante.ORGANIZADOR,
                 new SimpleBooleanProperty(true)
