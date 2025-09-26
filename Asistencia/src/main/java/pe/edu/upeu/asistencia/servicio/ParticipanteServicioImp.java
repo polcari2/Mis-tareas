@@ -10,7 +10,7 @@ public class ParticipanteServicioImp extends ParticipanteRepository implements P
 
     @Override
     public void save(Participante participante) {
-        participantes.add(participante);
+        super.save(participante);
     }
 
     @Override
@@ -30,9 +30,6 @@ public class ParticipanteServicioImp extends ParticipanteRepository implements P
 
     @Override
     public List<Participante> findAll(){
-        if(participantes.isEmpty()){
-            return super.findAll();
-        }
-        return participantes;
+        return super.findAll();
     }
 }
