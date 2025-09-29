@@ -14,7 +14,7 @@ public class ConDB {
             if(conexion==null){
                 conexion= DriverManager.getConnection(url);
             }
-            System.out.println("Conexion exitosa");
+            System.out.println("Coneccion exitosa");
         }catch( ClassNotFoundException | SQLException e){
             JOptionPane.showMessageDialog(null,"Error:"+e.getMessage());
         }
@@ -31,7 +31,7 @@ public class ConDB {
         }
     }
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         PreparedStatement pst=null;
         ResultSet rs=null;
         Connection con=getConexion();
@@ -47,6 +47,6 @@ public class ConDB {
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
-    }
+    }*/
 
 }
